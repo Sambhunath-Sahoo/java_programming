@@ -1,0 +1,19 @@
+package ClassAndObject;
+
+public class Constructor {
+	int rollno=46 , age = 19;
+	
+	void show() {
+		System.out.println(rollno +" " + age);
+	}
+
+
+
+	public static void main(String[] args) {
+		
+		student st = new student();
+		show();
+		
+	}
+
+}

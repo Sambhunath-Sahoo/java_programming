@@ -1,0 +1,14 @@
+package staticK;
+
+public class StaticMethod {
+	int x;
+	static String y="hello";
+	public static void show() {
+		System.out.println(y+x);
+	}
+	
+	public static void main(String[] args) {
+		StaticMethod.show();
+	}
+
+}

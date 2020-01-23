@@ -1,0 +1,25 @@
+package inheritance;
+
+public class B{
+	int rollno ,age;
+}
+public class Ex1  extends B{
+	int total;
+	void get() {
+		rollno = 101;
+		age = 18;
+		total = 34;
+	}
+	void show() {
+		System.out.println(rollno+age+total);
+	}
+
+	public static void main(String[] args) {
+		Ex1 obj = new Ex1();
+		obj.get();
+		obj.show();
+	
+
+	}
+
+}

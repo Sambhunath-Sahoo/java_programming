@@ -1,0 +1,13 @@
+package string;
+
+public class inBuildFunction {
+
+	public static void main(String[] args) {
+		
+		String str = "hello, my name is Vicky.";
+		
+		System.out.println(str.charAt(4));
+
+	}
+
+}
